@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.png");
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: SAOUI;
+    src:
+        url(SAOUI-Regular.otf)format("opentype");
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: NTTP;
+    src:
+        url(TaipeiSansTCBeta-Regular.ttf)format("opentype");
+    font-weight: regular;
+}
+
+h1 {
+    font-family: SAOUI;
+    color: whitesmoke
+}
+
+h2,
+p,
+li {
+    font-family: NTTP;
+    color: white;
+}
+
+.navigator {
+    background-color: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.navigator a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.navigator a:hover {
+    background-color: #bfb8b0;
+    color: black
+}
